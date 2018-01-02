@@ -22,6 +22,7 @@ verbs = [
 def hello_world():
     return render_template('home.html')
 
+@app.route('/quiz', methods = ['POST'])
 def choose_number():
     number = request.form['number']
     print("Your answer was " + number + "questions.")
