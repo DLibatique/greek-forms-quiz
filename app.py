@@ -20,7 +20,7 @@ verbs = [
 
 @app.route('/')
 def hello_world():
-    return render_template('base.html')
+    return render_template('home.html')
 
 def choose_number():
     number = request.form['number']
