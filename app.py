@@ -56,7 +56,7 @@ def index():
                 print('εὖγε!')
             
                 if verb[0] not in incorrect:
-                correct.append(verb[0])
+                    correct.append(verb[0])
                 pass
 
         print("You need to brush up on the following verbs: ",str(set(incorrect)))
