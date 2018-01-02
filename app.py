@@ -25,7 +25,7 @@ def hello_world():
 @app.route('/quiz', methods = ['POST'])
 def choose_number():
     number = request.form['number']
-    print("Your answer was " + number + "questions.")
+    print("Your answer was " + number + " questions.")
     return redirect('/')
 '''
 def index():
