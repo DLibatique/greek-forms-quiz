@@ -26,7 +26,6 @@ def hello_world():
 def choose_number():
     number = request.form['number']
     print("Your answer was " + number + "questions.")
-    return redirect('/')
 '''
 def index():
 
