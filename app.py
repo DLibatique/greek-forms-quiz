@@ -57,8 +57,8 @@ def quiz():
                 correct.append(verb[0])
             pass
 
-    print("You need to brush up on the following verbs: ",str(set(incorrect)))
-    print("You got the following verbs correct: ",str(set(correct)))
+    return "You need to brush up on the following verbs: ",str(set(incorrect))
+    return "You got the following verbs correct: ",str(set(correct))
 
 if __name__ == '__main__':
     app.run()    
