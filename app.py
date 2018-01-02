@@ -62,7 +62,5 @@ def quiz():
     print("You need to brush up on the following verbs: ",str(set(incorrect)))
     print("You got the following verbs correct: ",str(set(correct)))
 
-quiz()
-
 if __name__ == '__main__':
     app.run()    
