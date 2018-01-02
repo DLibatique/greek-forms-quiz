@@ -19,6 +19,9 @@ verbs = [
 ]
 
 @app.route('/')
+def hello_world():
+    return render_template('base.html')
+
 def choose_number():
     number = request.form['number']
     print("Your answer was " + number + "questions.")
