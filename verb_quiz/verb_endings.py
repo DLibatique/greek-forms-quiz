@@ -363,10 +363,24 @@ completely_regular_verb = [
 	('ἐρχ', pres_mp_ind),
 	('ἐρχ', mp_subj),
 	('ἐρχ', pres_mp_opt),
+	('ἐρχ', pres_mp_inf),
+	('ἔρχ', ['οσο', 'οσθε']),
 	('ἠρχ', impf_mp_ind),
+
 	('ἐλευσ', fut_mid_ind),
+	('ἐλε', ['οίμην', 'ύσοιο', 'ύσοιτο', 'οίμεθα', 'ύσοισθε', 'ύσοιντο']), #fut opt
+	('ἐλεύσ', fut_mid_inf),
+
 	('ἠλθ', aor2_act_ind),
-	('ἐλήλυθ', pf_act_ind),
+	('ἔλθ', act_subj), #aor subj
+	('ἔλθ', aor2_act_opt),
+	('ἐλθ', aor2_act_inf),
+	('ἐλθ', ['έ', 'ετε']),
+
+	('ἐληλυθ', pf_act_ind),
+	('ἐληλύθ', act_subj),
+	('ἐληλύθ', pf_act_opt),
+	('ἐληλύθ', pf_act_inf),
 	('ἠληλύθ', plupf_act_ind)
 ]
 
@@ -390,4 +404,4 @@ completely_regular_verb = [
 
 ]
 
-print(conjugate.full_conjugate(δίδωμι))
+print(conjugate.full_conjugate(ἔρχομαι))
